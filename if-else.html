@@ -33,12 +33,12 @@
 
         let n = parseFloat( prompt("Digite um número de 0 à 10:"))
 
-        if (n > 10 || n < 0 || isNaN(true)  ){
-            alert("Número inválido!")
-        } else{
+        if (n < 10 && n > 0 && !isNaN(n)){
             alert("Número válido!")
+        } else{
+            alert("Número inválido!")
         }
 
     </script>
 </body>
-</html>
+</html>11
